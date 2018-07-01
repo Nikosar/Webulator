@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/Calculator.js"></script>
+    <script src="js/Operations.js"></script>
+</head>
+<body>
+<div>
+    <header>Im a header! PIU-PIU</header>
+    <div class="content">
+        <div class="ui-corner-left"></div>
+        <div class="calculator">
+            <ul>
+                <li class="outputRow">
+                    <output id="output">0</output>
+                </li>
+                <li class="buttonRow">
+                    <button class="circle darkGrey" id="clear" type="submit" onclick="clearOutput()">C</button>
+                    <button class="circle darkGrey" id="invert" type="submit" onclick="invert()">+/-</button>
+                    <button class="circle darkGrey" id="percent" type="submit" onclick="percent()">%</button>
+                    <button class="circle orange" id="div" type="submit" onclick="setOperator('div')">÷</button>
+                </li>
+                <li class="buttonRow">
+                    <button class="circle black" id="7" type="submit" onclick="addNumber(7)">7</button>
+                    <button class="circle black" id="8" type="submit" onclick="addNumber(8)">8</button>
+                    <button class="circle black" id="9" type="submit" onclick="addNumber(9)">9</button>
+                    <button class="circle orange" id="mul" type="submit" onclick="setOperator('mul')">x</button>
+                </li>
+                <li class="buttonRow">
+                    <button class="circle black" id="4" type="submit" onclick="addNumber(4)">4</button>
+                    <button class="circle black" id="5" type="submit" onclick="addNumber(5)">5</button>
+                    <button class="circle black" id="6" type="submit" onclick="addNumber(6)">6</button>
+                    <button class="circle orange" id="sub" type="submit" onclick="setOperator('sub')">–</button>
+                </li>
+                <li class="buttonRow">
+                    <button class="circle black" id="1" type="submit" onclick="addNumber(1)">1</button>
+                    <button class="circle black" id="2" type="submit" onclick="addNumber(2)">2</button>
+                    <button class="circle black" id="3" type="submit" onclick="addNumber(3)">3</button>
+                    <button class="circle orange" id="sum" type="submit" onclick="setOperator('sum')">+</button>
+                </li>
+                <li class="buttonRow">
+                    <button class="circle black" id="but0" type="submit" onclick="addNumber(0)">0</button>
+                    <button class="circle black" id="dot" type="submit" onclick="addDot()">,</button>
+                    <button class="circle orange" id="result" type="submit" onclick="calcResult()">=</button>
+                </li>
+            </ul>
+
+
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

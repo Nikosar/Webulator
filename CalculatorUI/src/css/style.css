@@ -1,0 +1,90 @@
+body {
+    background: white
+}
+header {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-size: 54px;
+    float: right;
+    margin: 0 auto;
+    background: #92e4ff;
+}
+div.content {
+    background: white;
+}
+div.ui-corner-left {
+    width: 200px;
+    height: 400px;
+    float: left;
+}
+
+div.calculator {
+    width: max-content;
+    height: min-content;
+    background: black;
+    float: left;
+    text-align: center;
+}
+
+ul {
+    -webkit-padding-before: 16px;
+    list-style-type: none;
+    width: max-content;
+    height: min-content;
+    -webkit-padding-start: 8px;
+    -webkit-padding-end: 8px;
+}
+
+li.outputRow {
+    position: relative;
+    margin-right: 4px;
+    text-align: right;
+}
+
+li.buttonRow {
+    position: relative;
+    width: inherit;
+    margin: 12px;
+}
+
+#output {
+    color: white;
+    width: inherit;
+    height: inherit;
+    top: 0;
+    right: 0;
+    text-align: end;
+    background: black;
+    font-size: xx-large;
+}
+
+#but0 {
+    width: 132px;
+    border-radius: 30px;
+}
+
+button.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-width: 0;
+    margin-right: 4px;
+    margin-left: 4px;
+    font-size: large;
+}
+
+button.darkGrey {
+    color: black;
+    background: darkgrey;
+}
+
+button.orange {
+    background: orange;
+    color: white;
+}
+
+button.black {
+    background: #363636;
+    color: white;
+}
