@@ -1,0 +1,1 @@
+java -jar ./target/CalculatorBack-1.0-SNAPSHOT.jar
